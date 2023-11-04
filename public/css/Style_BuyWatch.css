@@ -1,0 +1,199 @@
+.title1 h2 {
+    margin-top: 3%;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.title1 h5 {
+    margin-top: 2%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main_row {
+    margin-top: 5%;
+}
+
+
+.buy {
+    height: 800px;
+    /* border: 2px solid red; */
+}
+
+.image1 img {
+
+    width: 50%;
+    height: 50%;
+}
+
+.big_img {
+    margin-left: 25%;
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Samll_buy */
+.sum_samll {
+    margin-top: 15%;
+}
+
+.Samll_buy {
+    height: 150px;
+    /* border: 2px solid red; */
+}
+
+.Samll_image .img3 {
+    width: 100%;
+    height: 100%;
+    margin-left: none;
+}
+
+/* = */
+
+/* title------------ */
+.sum_buy {
+    height: 800px;
+    /* border: 2px solid red; */
+
+}
+
+.main_title {
+    margin-left: 10%;
+}
+
+.title .doller {
+    margin: 5%;
+}
+
+.title .buy {
+    margin-top: 5%;
+    border: 1px solid black;
+    height: 45px;
+    width: 50%;
+
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-top: 50%;
+    margin-left: 20%;
+}
+
+.title .add_to {
+    margin-top: 5%;
+    height: 45px;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.title .buy_it {
+    margin-top: 5%;
+    border: 1px solid black;
+    height: 45px;
+    width: 70%;
+}
+
+.add_to p {
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+.buy_it .p2 {
+    margin-top: 2%;
+    margin-left: 33%;
+}
+
+.sum_title {
+    margin-top: 5%;
+}
+
+/* = */
+
+/* title2 */
+.box_size {
+    margin-top: 5%;
+}
+
+h6 {
+    display: inline;
+}
+
+.rig {
+    display: inline;
+    float: right;
+}
+
+/* = */
+
+/* Image_Big */
+.Image_Big {
+    margin-top: 3%;
+    height: 500px;
+    /* border:  solid blue 1px; */
+}
+
+.Image_Big1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.hr {
+    margin-bottom: 3%;
+}
+
+.section h3 {
+
+    margin-left: 40%;
+    letter-spacing: 5px;
+}
+
+
+/* titlt */
+
+/* 
+
+
+ slide watch */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+/* ==== */

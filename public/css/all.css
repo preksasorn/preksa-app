@@ -1,0 +1,33 @@
+
+.th,th{
+    color: black;
+    text-align: center;
+}
+td
+{
+    color: black;
+    text-align: center;
+     padding-top: 50px;
+}
+.b2{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.b3{
+  background-color: red;
+  border-radius: 5px;
+  height: 30px;
+  width: 40px;
+  border: none;
+}
+content{
+    overflow: scroll;
+}
+
